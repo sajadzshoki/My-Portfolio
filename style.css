@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+
+body {
+    background-image: linear-gradient(to right, #00ccff 10%, #130CB7 100%);
+}
+
+/* navbar-------------------------------------------------------------------------------------------------------------------------------------------- */
+.navbar {
+    /* background-color: white; */
+    height: 60px;
+    /* position:sticky; */
+    /* top: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    z-index: 1;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+ul li {
+    list-style: none;
+}
+
+#navbar-content {
+    margin: 20px;
+    padding: 15px;
+
+}
+
+#navbar-content:hover {
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+
+
+}
+
+.logo {
+    padding-right: 30px;
+    height: 80px;
+    /* background-color: aliceblue; */
+
+}
+
+.logo:hover {
+    height: 85px;
+}
+
+/* hero---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.container {
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding: 20px;
+    margin: 40px 40px;
+
+
+}
+
+.image-me {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: grayscale()
+}
+
+.image-me:hover {
+    box-shadow: 5px 5px 30px rgb(0, 0, 0, 0.5);
+    filter: grayscale(0.09)
+}
+
+
+.hero-h2 {
+    font-size: 50px;
+}
+
+.hero-h1 {
+    font-size: 80px;
+
+}
+
+.hero-p {
+    padding: 20px 20px 0 0;
+    font-size: 20px;
+    word-spacing: 2px;
+    line-height: 40px;
+}
+
+.shine {
+    color: rgb(255, 255, 255);
+
+}
+
+.btn-hire {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #130CB7;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+.btn-info {
+    width: 100px;
+    height: 35px;
+    align-self: flex-end;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff9d00;
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+
+.btn-info:hover {
+    background-color: #ffffff;
+    color: #ff7b00;
+
+}
+
+.btn-hire:hover {
+    background-color: #ffffff;
+    color: #000dff;
+
+}
+
+/* contact------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.contact {
+    /* background-color: azure; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 100px 40px 100px 40px;
+
+}
+
+.contact h1 {
+    font-size: 60px;
+    padding-bottom: 60px;
+    border-bottom: #000000 solid 3px;
+    width: 508px;
+
+}
+
+.social-media {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+
+}
+
+.contact i {
+    padding: 30px;
+}
+
+.contact a {
+    padding: 30px;
+    color: #000000;
+    font-size: 30px;
+}
+
+.contact a:hover {
+    color: #0011ff;
+    font-size: 35px;
+    /* text-shadow:#323232 0px 0px 20px; */
+
+}
+
+/* my skills ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.skills {
+    /* background-color: #ffffff; */
+    padding: 5px 60px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.skills i {
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+
+
+}
+
+.skills h1 {
+    font-size: 60px;
+    padding-bottom: 40px;
+    border-bottom: #000000 solid 3px;
+    width: 508px;
+}
+
+.skills p {
+    padding: 30px 0px 20px 10px;
+    font-size: 20px;
+}
+
+.skills-bar {
+    width: 80%;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 100px;
+    box-shadow: #000000 0px 0px 1px;
+
+
+}
+
+.html {
+    width: 80%;
+    background-color: #0800ff;
+    border-radius: 100px;
+    color: white;
+
+
+}
+
+.css {
+    width: 60%;
+    background-color: #ffffff;
+    border-radius: 100px;
+
+}
+
+.python {
+    width: 55%;
+    background-color: #0800ff;
+    border-radius: 100px;
+    color: white;
+
+
+}
+
+.javascript {
+    width: 30%;
+    background-color: #ffffff;
+    border-radius: 100px;
+
+
+}
+
+.java {
+    width: 20%;
+    background-color: #0800ff;
+    border-radius: 100px;
+    color: white;
+
+}
+
+.skill-bar-for-shadow:hover {
+    box-shadow: #000000 0px 0px 7px;
+
+}
+
+/* projects --------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.project {
+    /* background-color: #ffffff; */
+    display: flex;
+    flex-direction: column;
+    margin: 100px 50px;
+
+}
+
+.project h1 {
+    font-size: 60px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: #000000 solid 3px;
+    width: 508px;
+}
+
+.projects-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.image1,
+.image2,
+.image3 {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    filter: grayscale();
+    /* padding: 20px; */
+    /* overflow: auto; */
+
+}
+
+.project p {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.image1:hover,
+.image2:hover,
+.image3:hover {
+    /* position:inherit; */
+    width: 355px;
+    height: 305px;
+    color: #ffffff;
+    filter: grayscale(0.0);
+}
+
+
+/* footer---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.footer {
+    background-color: rgb(0, 0, 0, 0.8);
+    color: #ffffff;
+    margin: 0;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.footer p {
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.footer-links {
+    margin: 50px;
+    flex-direction: row;
+    /* background-color: #ff0000; */
+
+
+
+}
+
+.footer-links a {
+    padding: 20px;
+    color: #ffffff;
+    border-right: #ffffff solid 1px;
+    font-size: 100%;
+
+
+
+}
+
+.footer-links a:hover {
+    font-size: larger;
+}
+
+/* Hire me page ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.body2{
+    background-image: linear-gradient(to left, #00ccff 10%, #130CB7 100%);
+}
+.whole-page{
+    /* background-color: #ff7b00; */
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+}
+
+.hire-page-form {
+    /* background-color:#37ff00 ; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    margin: 40px 80px;
+    line-height: 6rem;
+    font-size: 20px;
+    border-bottom: #000000 2px solid;
+    width: 600px;
+    color: white;
+
+}
+
+
+.hire-page-form h1 {
+    font-size: 50px;
+
+}
+
+.input-box {
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+
+}
+.glad{
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    
+}
+.glad h2{
+    font-size: 50px;
+    margin: 30px 0px ;
+}
+.glad p{
+    line-height: 2rem;
+    
+    
+}
+
+/* .containerHirePage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.signUpForHire {
+    margin: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1000px;
+
+
+}
+
+.signUpForHire h1 {
+    font-weight: lighter;
+}
+
+input {
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+    font-size: 100%;
+    padding: 0px 15px;
+
+}
+
+.glad {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+
+
+
+} */
